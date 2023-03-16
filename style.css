@@ -152,18 +152,18 @@ p img {
 
 @keyframes float {
     0% {
-        bottom: 5vh;
+        bottom: 25px;
     } 45% {
-        bottom: 1vh;
+        bottom: 1px;
     } 100% {
-        bottom: 5vh;
+        bottom: 25px;
     }
 }
 
 h3 {
     color: rgb(198, 198, 198);
     position: absolute;
-    bottom: 1vh;
+    bottom: 1px;
     animation: float 1.5s infinite ease-out;
     background-color: rgb(109, 79, 3);
     border-radius: 10px;
